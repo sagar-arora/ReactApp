@@ -43,7 +43,7 @@ class DynamicTable extends React.Component<{}, DynamicTableState> {
     return data.map((user, index) => {
             const {id, name} = user;
             console.log(name);
-            return (<tr key={id}>
+            return (<tr key={id} >
                 <Link to={"/users/" + id}>
                 <td>{id}</td>
                 </Link>

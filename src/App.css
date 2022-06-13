@@ -37,15 +37,7 @@
   }
 }
 
-form {
-  width: 50%;
-}
-input {
-  width: 100%;
-}
 
-input[type=button], input[type=submit] {
-  background-color: #61dafb;
-  border: none;
-  color: black;
+.item {
+  width: 20%;
 }
