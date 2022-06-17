@@ -5,6 +5,7 @@ import { DynamicTable } from './components/table/DynamicTable';
 import User, { UserComponent } from './components/User';
 import Intro from './components/Intro';
 import { GroceryList } from './components/GroceryList';
+import Login from './components/LoginForm';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/users" element={<DynamicTable />} />
           <Route path="/users/:id" element={<UserComponent />} />
           <Route path="/grocery" element={<GroceryList />} />
+          <Route path="/login" element={<Login />} />
       </Routes>
       </Router>
     </div>
